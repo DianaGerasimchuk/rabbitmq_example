@@ -1,0 +1,24 @@
+{
+  "name": "cqrs-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-cc": "cd call_center && npm start",
+    "start-ur": "cd user_registration && npm start",
+    "start-a": "cd airport && npm start"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "0.5.3",
+    "body-parser": "1.19.0",
+    "dotenv": "8.0.0",
+    "express": "4.17.1",
+    "mongoose": "5.6.6",
+    "mysql2": "1.6.5",
+    "nodemon": "1.19.1",
+    "sequelize": "5.11.0"
+  }
+}

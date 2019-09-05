@@ -1,0 +1,1 @@
+Example of AMQP Rabbitmq communication between different services. Usage of MongoDB and MySQL.
